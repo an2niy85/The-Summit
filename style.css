@@ -1,0 +1,58 @@
+a {
+    color: #2176ff; /*цвет ссылок*/
+    text-decoration: underline; /*верхний регистр*/
+    cursor: pointer; /*вид курсора при наведении*/
+  }
+  
+  a:hover {
+    text-decoration: none; /**/
+  }
+  
+  .nav-link {
+    text-decoration: none; /**/
+  }
+  
+  .nav-link:hover {
+    color: #5495ff; /*цвет ссылок*/
+  }
+  
+  .btn {
+    background-color: #2176ff; /*фон кнопки*/
+    border-radius: 2px; /*скругление*/
+    color: #ffffff; /*цвет шрифта*/
+    font-family: 'Raleway', sans-serif; /*сам шрифт*/
+    font-size: 16px; /*размер*/
+    font-weight:400; /*ширина*/
+    padding: 14px; /*отступ внутр*/
+    text-decoration: none; /**/
+    text-transform: uppercase; /*верхний регистр*/
+    cursor: pointer; /*вид курсора*/
+  }
+  
+  .btn:hover { /*при наведении*/
+    background-color: #fff; /*задний фон*/
+    color: #2176ff; /*цвет шрифта*/
+    transition: color .1s easi-in, background-color .1s easy-in; /*переход начинается медл*/
+  }
+  
+  .btn:active { /*при нажатии*/
+    font-size: 18px; /*размер шрифта*/
+    transition: font-size .1s ease-in-out; /*переход нач и кон медл*/
+  }
+  
+  .activity {
+    border: 1px solid #2176ff; /*рамка*/
+    cursor: pointer; /*курсор при наведении*/
+    text-decoration: none;
+  }
+  
+  .activity:hover { /*при наведении*/
+    background-color: #fff; /*фон*/
+    color: #5495ff; /*цвет букв*/
+    transition: color .1s easy-in, background-color .1s easy-in; /*переход*/
+  }
+  
+  .activity:active { /*при нажатии*/
+    font-size: 40px; /*размер шрифта*/
+    transition: font-size .1s; /*переход*/
+  }
